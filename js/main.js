@@ -1,0 +1,1 @@
+$((function(){$(window).scroll((function(){$(this).scrollTop()>100?$(".header").addClass("header--active"):$(".header").removeClass("header--active")})),AOS.init({duration:1e3,easing:"ease"})}));
